@@ -4,12 +4,14 @@ import Dock from './components/Dock.jsx'
 import Nav from './components/Nav.jsx'  
 import MacWindow from './components/Windows/MacWindow.jsx'
 import Github from './components/Windows/Github.jsx'
+import Note from './components/Windows/Note.jsx'
 const App = () => {
   return (
     <main>
       <Nav/>
       <Dock/>
      <Github/>
+     <Note/>
     </main>
   )
 }
