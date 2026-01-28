@@ -5,6 +5,7 @@ import Nav from './components/Nav.jsx'
 import MacWindow from './components/Windows/MacWindow.jsx'
 import Github from './components/Windows/Github.jsx'
 import Note from './components/Windows/Note.jsx'
+import Resume from './components/Windows/Resume.jsx'
 const App = () => {
   return (
     <main>
@@ -12,6 +13,7 @@ const App = () => {
       <Dock/>
      <Github/>
      <Note/>
+     <Resume/>
     </main>
   )
 }
