@@ -2,7 +2,7 @@ import React from "react";
 import MacWindow from "./MacWindow";
 import githubData from "../../assets/github.json";
 import "./github.scss"
-const Github = () => {
+const Github = ({windowName, windowState, setwindowState}) => {
   const Gitcard = ({
     data = {
       id: 1,
@@ -33,7 +33,7 @@ const Github = () => {
     );
   };
   return (
-    <MacWindow>
+    <MacWindow windowName={windowName} windowState={windowState} setwindowState={setwindowState}>
       <div className="cards">
         {githubData.map((project) => {
           return <Gitcard data={project} />;

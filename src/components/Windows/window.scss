@@ -20,6 +20,7 @@
         .dots{
             display: flex;
             gap: 0.25rem;
+            cursor: pointer;
             .dot{
                 height: 10px;
                 width: 10px;
